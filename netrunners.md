@@ -13,13 +13,13 @@
 
 ### Некорректное отображение всех товаров, активных и неактивных с длинным названием
 
-![1](/attachments/1.jpg)
-![2](/attachments/2.jpg)
-![3](/attachments/3.jpg)
+![all_long_name](/attachments/all_long_name.jpg)
+![active_long_name](/attachments/active_long_name.jpg)
+![inactive_long_name](/attachments/inactive_long_name.jpg)
 
 ### Некорректное отображение большого числа объявлений
 
-![4](/attachments/4.jpg)
+![too_many_products](/attachments/too_many_products.jpg)
 
 ### Нет подтверждения при удалении
 
@@ -33,26 +33,28 @@
 
 Если прокрутить вниз, то пропадает header с поиском, корзиной и профилем. Чтобы воспользоваться данными функциями, приходится возвращаться в самый верх сайта
 
-![5](/attachments/5.jpg)
+![no_header](/attachments/no_header.jpg)
 
 # Страница заказов пользователя
 
 ## Что можно сделать
 
 - просмотреть купленные товары
-- просмотреть продавнные товары
+- просмотреть проданные товары
 
 ## Баги
 
 ### Некорректное отображение купленных и проданных товаров с длинным названием
 
-![6](/attachments/6.jpg)
-![7](/attachments/7.jpg)
+![buyed_long_name](/attachments/buyed_long_name.jpg)
+![sold_long_name](/attachments/sold_long_name.jpg)
 
 ### Некорректное отображение большого числа заказов и продаж
 
-![8](/attachments/8.jpg)
+![too_many_orders](/attachments/too_many_orders.jpg)
 
 ### При прокрутки пропадает header сайта
 
 Если прокрутить вниз, то пропадает header с поиском, корзиной и профилем. Чтобы воспользоваться данными функциями, приходится возвращаться в самый верх сайта
+
+![no_header](/attachments/no_header.jpg)
