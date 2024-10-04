@@ -5,42 +5,52 @@
 
 ## Страница объявления
 
-![product_page.png](static/product_page/product_page.png)
-
 **На странице отображаются:**
    * Данные о товаре (Название, фото, город, описание, категория, цена и кол-во просмотров)
    * Данные о продавце (имя, почта и дата публикации объявления)
    * История цен
    * Кнопка добавления товара в корзину
+   * Кнопка перехода к профилю продавца
+
+![product_page.png](static/product_page/product_page.png)
 
 ### История цены
-При нажатии на кнопку "история цены" появляется всплывающее окно с графиком
+* При нажатии на кнопку "история цены" появляется всплывающее окно с графиком
 
 ![price_history_graph.png](static/product_page/price_history_graph.png)
 
-### Избранное
-Корректное отображение добавления в избранное авторизованным пользователем
-
-![add_to_favourites_success.png](static/product_page/add_to_favourites_success.png)
-
-### Баги страницы объявления
-* Некорректное отображение истории цен
-
+* Неправильная верстка истории цен
 ![img.png](static/product_page/price_history.png)
 
-* При попытке добавить товар в корзину без авторизации было бы целесообразнее сообщать, что требуется авторизация, или сразу перенаправлять пользователя на страницу авторизации
+### Избранное
+* При нажатии на кнопку Добавить в избранное авторизованным пользователем, текст кнопки меняется на "В избранном"
 
-![img.png](static/product_page/add_to_cart.png)
+![add_to_favourites_success.png](static/product_page/add_to_favourites_success.png)
 
 * При попытке добавить товар в избранное без авторизации не возникает никаких ошибок или предупреждений со стороны интерфейса
 
 ![add_to_favourites_no_auth.png](static/product_page/add_to_favourites_no_auth.png)
 
+### Кнопка добавления товара в корзину
+
+* При добавлении товара в корзину авторизованным пользователем меняется текст на "Данный товар уже в корзине"
+![add_to_cart2.png](static/product_page/add_to_cart2.png)
+
+* При попытке добавить товар в корзину без авторизации не возникает никаких ошибок или предупреждений со стороны интерфейса
+![add_to_cart.png](static/product_page/add_to_cart.png)
+
+
+### Создание объявления
+
+* При заполнении всех полей создается страница товара
+
+![create_product.png](static%2Fproduct_page%2Fcreate_product.png)
+
 * Имеется возможность в поля с названием и описанием добавить zalgo текст
 
 ![zalgo_check.png](static/product_page/zalgo_check.png)
 
-* Не юзер френдли сообщение об ошибке
+* При вводе 0 в поле "цена" и "доступное кол-во товара вылетает" не юзер френдли сообщение об ошибке
 
 ![create_product_error.png](static/product_page/create_product_error.png)
 
@@ -56,21 +66,39 @@
    
 ![settings.png](static/settings/settings.png)
 
+### Поле ввода имени
 
-### Баги страницы настроек
-* При попытке загрузить слишком большой файл не возникает никаких ошибок или предупреждений со стороны интерфейса
+* При вводе нового имени и нажатии кнопки "Сохранить" сразу обновляется имя профиля
 
-![avatar_field.png](static/settings/avatar_field.png)
+![change_name.png](static%2Fsettings%2Fchange_name.png)
 
-* Нет никакой валидации
+* Имеется возможность в поле Имя ввести zalgo текст
+
+![zalgo_name.png](static%2Fsettings%2Fzalgo_name.png)
+
+### Поле ввода телефона
+
+* При вводе нового телефона и нажатии кнопки "Сохранить" сразу обновляется телефон
+
+![change_phone.png](static%2Fsettings%2Fchange_phone.png)
+
+* Отсутствует валидации
 
 ![phone_field.png](static/settings/phone_field.png)
+
+### Поле ввода почты
 
 * при вводе новой почты данные записываются в номер телефона (+ отсутствует валидация)
 
 ![email_field_before.png](static/settings/email_field_before.png)
 
 ![email_field_after.png](static/settings/email_field_after.png)
+
+### Поле загрузки аватарки
+
+* При попытке загрузить слишком большой файл не возникает никаких ошибок или предупреждений со стороны интерфейса
+
+![avatar_field.png](static/settings/avatar_field.png)
 
 # Главная страница
 
