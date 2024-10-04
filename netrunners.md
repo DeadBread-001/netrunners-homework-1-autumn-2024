@@ -1,3 +1,8 @@
+# ДЗ 1
+- Название команды: Нетраннеры
+- Тестовое окружение: Google Chrome Версия 129.0.6668.90 (Официальная сборка), (64 бит)
+- Ссылка на сайт: https://goods-galaxy.ru/
+
 ## Страница объявления
 
 ![product_page.png](static/product_page/product_page.png)
