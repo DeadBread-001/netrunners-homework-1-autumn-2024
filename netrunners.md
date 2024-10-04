@@ -82,21 +82,25 @@
 
 ![change_phone.png](static%2Fsettings%2Fchange_phone.png)
 
-* Отсутствует валидации
+* Можно внести любые данные, не соответствующие паттерну
 
 ![phone_field.png](static/settings/phone_field.png)
 
 ### Поле ввода почты
 
-* при вводе новой почты данные записываются в номер телефона (+ отсутствует валидация)
+* При вводе новой почты данные записываются в номер телефона
 
 ![email_field_before.png](static/settings/email_field_before.png)
 
 ![email_field_after.png](static/settings/email_field_after.png)
 
+* Можно внести любые данные, не соответствующие паттерну
+
+![change_email.png](static%2Fsettings%2Fchange_email.png)
+
 ### Поле загрузки аватарки
 
-* При попытке загрузить слишком большой файл не возникает никаких ошибок или предупреждений со стороны интерфейса
+* При попытке загрузить изображение больше 1 МБ не возникает никаких ошибок или предупреждений со стороны интерфейса
 
 ![avatar_field.png](static/settings/avatar_field.png)
 
