@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/784a6eb4-506e-402d-a1dc-0c73a8fd8cbc)# ДЗ 1
+# ДЗ 1
 
 - Название команды: Нетраннеры
 - Тестовое окружение: Google Chrome Версия 129.0.6668.90 (Официальная сборка), (64 бит)
